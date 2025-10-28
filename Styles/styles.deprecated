@@ -79,8 +79,7 @@ html, body {
 .logo {
     position: fixed;
     top: var(--header-height);
-    left: 53%;
-    transform: translateX(-50%);             
+    left: 20%;
     width: auto;                              
     height: calc(100vh - var(--header-height));
     max-width: 100%;                          
