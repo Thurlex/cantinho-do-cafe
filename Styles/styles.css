@@ -155,3 +155,29 @@ body{
   #menu{order:-1}
   #address::before{font-size:16px}
 }
+
+:root{
+    --header-height: 100px; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logoback {
+    position: fixed;
+    top: var(--header-height);
+    left: 53%;
+    transform: translateX(-50%);             
+    width: auto;                              
+    height: calc(100vh - var(--header-height));
+    max-width: 100%;                          
+    object-fit: contain;                      
+    object-position: center top;              
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+}
